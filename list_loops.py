@@ -12,6 +12,15 @@ print(songs)
 songs.append("Headlines")
 songs.extend(["Twin Turbo", "ElDorado"])
 print(songs)
-#songs.remove("ElDorado")
+songs.remove("ElDorado")
 #del songs[5]
 print(songs)
+#Q5
+
+#Q6
+animals = ["Lion", "Bear", "Whale"]
+animals.append("Rhino")
+print(animals)
+print(animals[2])
+del animals[0]
+print(animals)
